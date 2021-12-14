@@ -1,0 +1,75 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+}
+
+.container-menu {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: orange;
+}
+
+.btn-menu {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    cursor: pointer;
+}
+
+.ligne {
+    width: 40px;
+    height: 5px;
+    border-radius: 5px;
+    background: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icone {
+    width: 40px;
+}
+
+.blob {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.blob1 {
+    background: chartreuse;
+}
+
+.blob2 {
+    background: #c7ceea;
+}
+.blob3 {
+    background: #ffdac1;
+}
+.blob4 {
+    background: #ff9aa2;
+}
